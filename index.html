@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CBTis 101 - Proyecto Web</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>CBTis 101 - Tecnología y Futuro</h1>
+        <nav>
+            <ul>
+                <li><a href="#bienvenida">Inicio</a></li>
+                <li><a href="#institucion">Nuestra Escuela</a></li>
+                <li><a href="#carreras">Carreras Técnicas</a></li>
+                <li><a href="#registro">Registro</a></li>
+                <li><a href="#ayuda">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bienvenida">
+            <h2>Bienvenido al proyecto web de Francisco Javier</h2>
+            <p>
+                En el CBTis 101 nos enfocamos en brindar una educación técnica integral con calidad, apoyando el crecimiento académico y personal de nuestros estudiantes. Explora nuestras opciones de formación y sé parte del cambio.
+            </p>
+        </section>
+
+        <section id="institucion">
+            <h2>Nuestra Escuela</h2>
+            <p>
+                Nuestra institución ofrece formación técnica profesional en diferentes áreas clave para el desarrollo del país. Contamos con docentes capacitados, laboratorios bien equipados y un enfoque práctico para el aprendizaje.
+            </p>
+            <ul>
+                <li>Dirección: Av. Técnica #200, Ciudad Ejemplo</li>
+                <li>Teléfono: (999) 888-7777</li>
+                <li>Email: informes@cbtis101.edu.mx</li>
+                <li>Horario: Lunes a Viernes, 7:30 am - 2:30 pm</li>
+            </ul>
+        </section>
+
+        <section id="carreras">
+            <h2>Carreras Técnicas</h2>
+
+            <article>
+                <h3>Laboratorio Clínico</h3>
+                <p>
+                    Aprende técnicas modernas de análisis clínico, desde toma de muestras hasta interpretación de resultados. Trabaja en equipo para diagnosticar y prevenir enfermedades.
+                </p>
+            </article>
+
+            <article>
+                <h3>Tecnología de Alimentos</h3>
+                <p>
+                    Estudia el procesamiento y control de calidad de los alimentos. Conoce las normas de higiene y seguridad en la industria alimentaria.
+                </p>
+            </article>
+
+            <article>
+                <h3>Administración Contable</h3>
+                <p>
+                    Prepárate para manejar registros financieros, informes económicos y toma de decisiones dentro de empresas públicas o privadas.
+                </p>
+            </article>
+
+            <article>
+                <h3>Mecatrónica</h3>
+                <p>
+                    Fusiona conocimientos de mecánica, electrónica y control para mantener y reparar maquinaria moderna. Aprende a automatizar procesos industriales.
+                </p>
+            </article>
+        </section>
+
+        <section id="registro">
+            <h2>Formulario de Registro</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required />
+
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required />
+
+                <label for="carrera">Carrera que deseas:</label>
+                <select id="carrera" name="carrera" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="laboratorio">Laboratorio Clínico</option>
+                    <option value="alimentos">Tecnología de Alimentos</option>
+                    <option value="contabilidad">Administración Contable</option>
+                    <option value="mecatronica">Mecatrónica</option>
+                </select>
+
+                <label for="comentario">¿Por qué quieres estudiar esta carrera?</label>
+                <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu respuesta aquí..."></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="ayuda">
+            <h2>Contacto y Ayuda</h2>
+            <p>¿Tienes preguntas? Contáctanos:</p>
+            <ul>
+                <li>Tel: (999) 888-7777</li>
+                <li>Email: informes@cbtis101.edu.mx</li>
+                <li>Dirección: Av. Técnica #200, Ciudad Ejemplo</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Francisco Javier - Proyecto Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
